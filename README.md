@@ -1,3 +1,4 @@
 # My Personal Portfolio Website
+## https://arjunapanji21.github.io/site/
 
-<img src="https://github.com/arjunapanji21/site/blob/main/images/Screenshot_2021-05-05%20Portfolio%20Website.png" alt="alt text" width="840px" height="100%">
+<img src="https://github.com/arjunapanji21/site/blob/main/images/website%20sample.png" alt="alt text" width="840px" height="100%">
