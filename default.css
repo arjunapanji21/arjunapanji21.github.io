@@ -9,6 +9,7 @@
 
     --themeDotBorder:#24292e;
     --previewBG:rgb(251,249,243,0.8);
+    --previewBorder: #17a2b8;
     --previewShadow:#f0ead6;
 
     --buttonColor:black;
@@ -223,7 +224,7 @@ a {
 
 #preview {
     width: 300px;
-    border: 1.5px solid #17a2b8;
+    border: 1.5px solid var(--previewBorder);
     background-color: var(--previewBG);
     padding: 15px;
 }
