@@ -257,7 +257,7 @@ a {
     background-color: var(--previewShadow);
 }
 
-#paragraph{
+.paragraph{
     color: var(--mainText); 
     word-wrap: break-word;
     text-align: center;
@@ -409,7 +409,7 @@ a {
         height: auto;
     }
 
-    #paragraph{
+    .paragraph{
         text-align: justify;
         padding: 5px;
     }
