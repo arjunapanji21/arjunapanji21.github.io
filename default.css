@@ -106,7 +106,6 @@ a {
 
 #navigation {
     margin: 0;
-    padding: 10px;
 }
 
 #navigation a {
@@ -120,8 +119,8 @@ a {
 
 #navigation li{
     display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -136,7 +135,7 @@ a {
 
 .dots-wrapper {
     display: flex;
-    padding: 10px;
+    padding: 5px;
 }
 
 .browser-dot {
@@ -169,6 +168,12 @@ a {
     margin-bottom: 50px;
 }
 
+.body-center{
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
 #profile-pic{
     display: block;
     margin: auto;
@@ -176,6 +181,7 @@ a {
     width: 200px;
     object-fit: cover;
     border: 2px solid var(--borderColor);
+    border-radius: 50%;
 }
 
 #theme-options-wrapper {
@@ -251,6 +257,19 @@ a {
     background-color: var(--previewShadow);
 }
 
+#paragraph{
+    color: var(--mainText); 
+    word-wrap: break-word;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.screenshot{
+    width: 700px;
+    height: auto;
+}
+
 .social-links {
     align-content: center;
     text-align: center;
@@ -295,6 +314,16 @@ a {
     -webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
     -moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
     box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+}
+
+.post-section {
+    padding: 10px;
+    background-color: var(--secondaryColor);
+    text-align: center;
+    border:1px solid var(--borderColor);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 }
 
 .post-preview {
@@ -373,6 +402,16 @@ a {
             'left-column'
             'right-column'
         ;
+    }
+
+    .screenshot{
+        width: 100%;
+        height: auto;
+    }
+
+    #paragraph{
+        text-align: justify;
+        padding: 5px;
     }
 
     .right-column {
