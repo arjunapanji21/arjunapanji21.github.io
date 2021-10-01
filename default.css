@@ -388,12 +388,10 @@ a {
     border: none;
 }
 
-.download {
-    font-size: 16px;
-}
-
-.download a:hover{
-    font-size: 24px;
+.Download a:hover{
+    padding: 10px;
+    background-color: #fec02f;
+    color: #fff;
 }
 
 @media screen and (max-width: 1200px) {
