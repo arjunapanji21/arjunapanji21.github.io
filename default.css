@@ -388,6 +388,12 @@ a {
     border: none;
 }
 
+.Download a:hover{
+    padding: 10px;
+    background-color: #fec02f;
+    color: #fff;
+}
+
 @media screen and (max-width: 1200px) {
     .main-container{
         width: 95%;
